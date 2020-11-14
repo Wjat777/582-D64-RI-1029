@@ -1,0 +1,10 @@
+/* Je me present. V3 : Avec Style.CSS */
+/*Par: William John Adam Trindade*/
+/*Date : 2000-11-14 */
+
+body
+{
+    widows: 900px; /*Largeur du site*/
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+}
