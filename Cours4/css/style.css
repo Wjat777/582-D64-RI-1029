@@ -7,16 +7,3 @@ body {
   width: 100%; /* On pourrait aussi prendre 100% de la largeur */
   margin: auto; /* pour centrer le site en largeur */
 }
-
-#debut {
-  background-color: yellowgreen;
-}
-#etudes {
-  background-color: green;
-}
-#sports {
-  background-color: lightseagreen;
-}
-#reve {
-  background-color: lightgreen;
-}
