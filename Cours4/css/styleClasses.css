@@ -1,0 +1,32 @@
+/* Je me present. V4 : Avec StyleClasse.CSS */
+/*Par: William John Adam Trindade*/
+/*Date : 2000-11-28 */
+
+body {
+  widows: 900px; /*Largeur du site*/
+  width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+  margin: auto; /* pour centrer le site en largeur */
+}
+
+#body {
+  widows: 900px; /*Largeur du site*/
+  width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+  margin: auto; /* pour centrer le site en largeur */
+}
+
+#debut {
+  background-color: yellowgreen;
+}
+#etudes {
+  background-color: green;
+}
+#sports {
+  background-color: lightseagreen;
+}
+#loisirs {
+  background-color: lightsalmon;
+}
+
+#reve {
+  background-color: lightgreen;
+}
