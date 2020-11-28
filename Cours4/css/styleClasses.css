@@ -2,16 +2,16 @@
 /*Par: William John Adam Trindade*/
 /*Date : 2000-11-28 */
 
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
 body {
-  widows: 900px; /*Largeur du site*/
-  width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+  width: 90%; /* On pourrait aussi prendre 100% de la largeur */
   margin: auto; /* pour centrer le site en largeur */
 }
 
-#body {
-  widows: 900px; /*Largeur du site*/
-  width: 100%; /* On pourrait aussi prendre 100% de la largeur */
-  margin: auto; /* pour centrer le site en largeur */
+img {
+  width: 300px;
+  margin: 0 0 0 5%;
 }
 
 #debut {
@@ -29,4 +29,27 @@ body {
 
 #reve {
   background-color: lightgreen;
+}
+.belleImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.belleImage:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.MesTitresH1 {
+  font-family: "Poiret One", cursive;
+}
+
+.MesTitresH2 {
+  font-family: "Poiret One", cursive;
+  font-size: 1.5em;
+  color: coral;
+}
+.MesTitresH3 {
+  font-family: "Poiret One", cursive;
+  font-size: 1.25em;
+  color: azure;
+  background-color: darkslategrey;
 }
