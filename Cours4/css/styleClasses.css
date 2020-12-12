@@ -3,7 +3,10 @@
 /*Date : 2000-11-28 */
 
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-
+@font-face {
+  font-family: titi;
+  src: url("../font/Nunito-Black.ttf");
+}
 body {
   width: 90%; /* On pourrait aussi prendre 100% de la largeur */
   margin: auto; /* pour centrer le site en largeur */
@@ -39,7 +42,7 @@ img {
 }
 
 .MesTitresH1 {
-  font-family: "Poiret One", cursive;
+  font-family: titi;
 }
 
 .MesTitresH2 {
@@ -52,4 +55,7 @@ img {
   font-size: 1.25em;
   color: azure;
   background-color: darkslategrey;
+}
+.MesTitresH3 {
+  border: 10px solid blue;
 }
